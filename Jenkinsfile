@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        registry = "vinaytr/vinay123"
+        registry = "sachin200007/cicdrepo"
         registryCredentials = 'docker-credentials'
     }
 
