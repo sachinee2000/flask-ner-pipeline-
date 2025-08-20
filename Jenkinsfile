@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone a git repository') {
             steps {
-                git credentialsId: 'git-credentials', url: 'https://github.com/sachinee2000/flask-ner-pipeline-.git'
+                 git branch: 'main', credentialsId: 'git-credentials', url:'https://github.com/sachinee2000/flask-ner-pipeline-.git'
             }
         }
 
